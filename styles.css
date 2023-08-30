@@ -1,0 +1,66 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos para el encabezado */
+  .header {
+    background-color: #0E4D92;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+  }
+  
+  .titulo {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  .subtitulo {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  /* Estilos para el formulario */
+  .formulario {
+    background-color: #F4F4F4;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  /* Estilos para la galería */
+  .galeria {
+    background-color: white;
+    padding: 40px 0;
+  }
+  
+  /* Estilos para el pie de página */
+  .footer {
+    background-color: #0E4D92;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .derechos {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  /* Efectos de hover */
+  .cta, .slide:hover .descripcion {
+    background-color: #ff8800;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .cta:hover, .slide .descripcion:hover {
+    background-color: #e67300;
+  }
